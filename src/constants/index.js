@@ -30,7 +30,6 @@ import {
   searchMd,
   slack,
   sliders04,
-  telegram,
   twitter,
   yourlogo,
 } from "../assets";
@@ -310,12 +309,6 @@ export const socials = [
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
     url: "#",
   },
 ];
