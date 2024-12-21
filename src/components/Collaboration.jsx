@@ -27,7 +27,16 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button
+            onClick={() =>
+              window.open(
+                "https://chromewebstore.google.com/detail/grapevine/pplalkgaganjjijekcoikebmnjfdhfbf",
+                "_blank"
+              )
+            }
+          >
+            Try it now
+          </Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

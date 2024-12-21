@@ -67,6 +67,9 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitIcon5 from "./benefits/icon-5.svg";
+import benefitIcon6 from "./benefits/icon-6.svg";
+
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
@@ -89,6 +92,8 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
   benefitImage2,
   brainwave,
   brainwaveSymbol,
@@ -108,6 +113,7 @@ export {
   file02,
   framer,
   gradient,
+  grapevideo,
   grapevine,
   grid,
   hero,
@@ -146,5 +152,4 @@ export {
   twitter,
   undone,
   yourlogo,
-  grapevideo
 };
