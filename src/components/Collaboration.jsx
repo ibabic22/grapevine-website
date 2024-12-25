@@ -40,7 +40,7 @@ const Collaboration = () => {
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] md:mt-0 sm:mt-0 mt-14">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:mx-auto">
+          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-28 lg:mx-auto">
             {collabDescription}
           </p>
 
