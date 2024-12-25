@@ -128,7 +128,10 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.";
+
+export const collabDescription =
+  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. There are many variations of passages of Lorem Ipsum available.";
 
 export const collabContent = [
   {
@@ -139,10 +142,12 @@ export const collabContent = [
   {
     id: "1",
     title: "Smart Automation",
+    text: collabText,
   },
   {
     id: "2",
     title: "Top-notch Security",
+    text: collabText,
   },
 ];
 
@@ -202,42 +207,6 @@ export const collabApps = [
     icon: raindrop,
     width: 38,
     height: 32,
-  },
-];
-
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
   },
 ];
 

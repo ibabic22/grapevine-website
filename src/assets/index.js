@@ -78,6 +78,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import grapevineImage from "./collaboration/grapevine.png";
 import grapevideo from "./hero/grapevine-video.mp4";
 
 export {
@@ -115,6 +116,7 @@ export {
   gradient,
   grapevideo,
   grapevine,
+  grapevineImage,
   grid,
   hero,
   heroBackground,
