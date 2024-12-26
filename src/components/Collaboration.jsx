@@ -6,14 +6,14 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
-    <Section id="how-to-use" crosses>
-      <div className="container lg:flex">
+    <Section id="how-to-use" crosses className="pt-0">
+      <div className="container lg:block xl:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
             Lorem Ipsum is not simply random text
           </h2>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
+          <ul className="max-w-[22rem] mb-7 md:mb-14">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
@@ -39,7 +39,7 @@ const Collaboration = () => {
           </Button>
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] md:mt-0 sm:mt-0 mt-14">
+        <div className="lg:ml-auto xl:w-[38rem] md:mt-14 sm:mt-0 mt-11 xl:mt-0">
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-28 lg:mx-auto">
             {collabDescription}
           </p>
