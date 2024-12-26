@@ -3,9 +3,9 @@ import { grapevideo } from "../assets";
 
 import Button from "./Button";
 import Section from "./Section";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+import { BackgroundCircles, BottomLine, Gradient } from "./design/Main";
 
-const Hero = () => {
+const Main = () => {
   const parallaxRef = useRef(null);
 
   return (
@@ -70,4 +70,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Main;

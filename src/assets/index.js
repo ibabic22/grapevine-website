@@ -1,8 +1,3 @@
-import smallSphere from "./4-small.png";
-import background from "./background.jpg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwave from "./brainwave.svg";
 import check2 from "./check-02.svg";
 import check from "./check.svg";
 import chromecast from "./chrome-cast.svg";
@@ -11,7 +6,6 @@ import file02 from "./file-02.svg";
 import gradient from "./gradient.png";
 import grapevine from "./grapevine.svg";
 import grid from "./grid.png";
-import homeSmile from "./home-smile.svg";
 import loading1 from "./loading-01.svg";
 import loading from "./loading.png";
 import play from "./play.svg";
@@ -20,42 +14,17 @@ import recording01 from "./recording-01.svg";
 import recording03 from "./recording-03.svg";
 import searchMd from "./search-md.svg";
 import sliders04 from "./sliders-04.svg";
-import yourlogo from "./yourlogo.svg";
 
-import heroBackground from "./hero/hero-background.jpg";
-import robot from "./hero/robot.jpg";
-
-import curve1 from "./collaboration/curve-1.svg";
-import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
-
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
-
-import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.svg";
-
-import coins from "./roadmap/coins.png";
-import done from "./roadmap/done.svg";
-import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
-import undone from "./roadmap/undone.svg";
-
-import notification1 from "./notification/image-1.png";
-import notification2 from "./notification/image-2.png";
-import notification3 from "./notification/image-3.png";
-import notification4 from "./notification/image-4.png";
+import curve1 from "./howToUse/curve-1.svg";
+import curve2 from "./howToUse/curve-2.svg";
+import discord from "./howToUse/discord.png";
+import figma from "./howToUse/figma.png";
+import framer from "./howToUse/framer.png";
+import notion from "./howToUse/notion.png";
+import photoshop from "./howToUse/photoshop.png";
+import protopie from "./howToUse/protopie.png";
+import raindrop from "./howToUse/raindrop.png";
+import slack from "./howToUse/slack.png";
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -78,11 +47,10 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
-import grapevineImage from "./collaboration/grapevine.png";
 import grapevideo from "./hero/grapevine-video.mp4";
+import grapevineImage from "./howToUse/grapevine.png";
 
 export {
-  background,
   benefitCard1,
   benefitCard2,
   benefitCard3,
@@ -96,19 +64,14 @@ export {
   benefitIcon5,
   benefitIcon6,
   benefitImage2,
-  brainwave,
-  brainwaveSymbol,
-  brainwaveWhiteSymbol,
   check,
   check2,
   chromecast,
-  coins,
   curve1,
   curve2,
   disc02,
   discord,
   discordBlack,
-  done,
   facebook,
   figma,
   file02,
@@ -118,17 +81,9 @@ export {
   grapevine,
   grapevineImage,
   grid,
-  hero,
-  heroBackground,
-  homeSmile,
   instagram,
-  lines,
   loading,
   loading1,
-  notification1,
-  notification2,
-  notification3,
-  notification4,
   notion,
   photoshop,
   play,
@@ -137,21 +92,9 @@ export {
   raindrop,
   recording01,
   recording03,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
-  robot,
   searchMd,
-  service1,
-  service2,
-  service3,
   slack,
   sliders04,
-  smallSphere,
-  stars,
   telegram,
   twitter,
-  undone,
-  yourlogo,
 };

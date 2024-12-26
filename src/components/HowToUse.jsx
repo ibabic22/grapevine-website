@@ -2,9 +2,9 @@ import { check, grapevineImage } from "../assets";
 import { collabContent, collabDescription } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { LeftCurve, RightCurve } from "./design/HowToUse";
 
-const Collaboration = () => {
+const HowToUse = () => {
   return (
     <Section id="how-to-use" crosses className="pt-0">
       <div className="container lg:block xl:flex">
@@ -60,4 +60,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default HowToUse;
