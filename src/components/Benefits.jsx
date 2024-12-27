@@ -16,13 +16,14 @@ const Benefits = () => {
         <div className="flex flex-wrap gap-10">
           {benefits.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] opacity-80 transition-opacity hover:opacity-100"
-              style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
-              }}
+              className="relative block p-0.5 md:max-w-[24rem] opacity-80 transition-opacity hover:opacity-100"
               key={item.id}
             >
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+              <div className="absolute z-2 inset-0 rounded-[10%] bg-gradient-to-b from-[#8762EA] to-transparent pointer-events-none"></div>
+
+              <div className="absolute inset-0 rounded-[10%] bg-gradient-to-t from-[#26242C] to-transparent pointer-events-none"></div>
+
+              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] bg-[#0E0C15] rounded-[10%] overflow-hidden">
                 <div className="flex items-center mb-5">
                   <img
                     src={item.iconUrl}
@@ -39,21 +40,9 @@ const Benefits = () => {
               {item.light && <GradientLight />}
 
               <div
-                className="absolute inset-0.5 bg-n-8"
+                className="absolute inset-0.5 bg-n-8 rounded-[10%]"
                 style={{ clipPath: "url(#benefits)" }}
-              >
-                {/* <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10"> */}
-                {/* {item.imageUrl && (
-                    <img
-                      src={item.imageUrl}
-                      width={380}
-                      height={362}
-                      alt={item.title}
-                      className="w-full h-full object-cover"
-                    />
-                  )} */}
-                {/* </div> */}
-              </div>
+              ></div>
 
               <ClipPath />
             </div>
