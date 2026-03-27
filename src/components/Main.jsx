@@ -3,7 +3,7 @@ import { grapevideo } from "../assets";
 
 import Button from "./Button";
 import Section from "./Section";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Main";
+import { BackgroundCircles, BottomLine } from "./design/Main";
 
 const Main = () => {
   const parallaxRef = useRef(null);
@@ -25,8 +25,9 @@ const Main = () => {
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             With our extension, you can easily comment on any URL on the web,
-            from news articles to blog posts, and even social media pages. <br />Join
-            the conversation, share your insights and connect with others
+            from news articles to blog posts, and even social media pages.{" "}
+            <br />
+            Join the conversation, share your insights and connect with others
             directly from your browser.
           </p>
           <Button
@@ -43,24 +44,19 @@ const Main = () => {
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:pb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
-            <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
-
-              <div className="aspect-[45/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[550/300] lg:aspect-[1080/500]">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  src={grapevideo}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
-                  width={1024}
-                  height={490}
-                  alt="AI"
-                />
+            <div className="relative z-1 p-[1px] rounded-2xl bg-conic-gradient">
+              <div className="rounded-2xl overflow-hidden">
+                <div className="aspect-auto">
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    src={grapevideo}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
-
-            <Gradient />
           </div>
 
           <BackgroundCircles />

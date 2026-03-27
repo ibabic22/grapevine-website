@@ -41,8 +41,8 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
-import grapevideo from "./main/grapevine-video.mp4";
 import grapevineImage from "./howToUse/grapevine.png";
+import grapevideo from "./main/grapevine-video.webm";
 
 export {
   benefitIcon1,
