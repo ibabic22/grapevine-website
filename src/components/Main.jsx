@@ -19,19 +19,21 @@ const Main = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore Chat Possibilities of&nbsp;Any URL on the web&nbsp; with{" "}
+            Comments Section for Every URL on the Web with&nbsp;
             {` `}
             <span className="inline-block relative">Grapevine </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum a
-            nostrum veritatis expedita iste.
+            With our extension, you can easily comment on any URL on the web,
+            from news articles to blog posts, and even social media pages. <br />Join
+            the conversation, share your insights and connect with others
+            directly from your browser.
           </p>
           <Button
             onClick={() =>
               window.open(
                 "https://chromewebstore.google.com/detail/grapevine/pplalkgaganjjijekcoikebmnjfdhfbf",
-                "_blank"
+                "_blank",
               )
             }
             white

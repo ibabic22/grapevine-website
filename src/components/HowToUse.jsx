@@ -9,9 +9,7 @@ const HowToUse = () => {
     <Section id="how-to-use" crosses className="pt-0">
       <div className="container lg:block xl:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
-            Lorem Ipsum is not simply random text
-          </h2>
+          <h2 className="h2 mb-4 md:mb-8">How It Works in Simple Steps</h2>
 
           <ul className="max-w-[22rem] mb-7 md:mb-14">
             {collabContent.map((item) => (
@@ -31,7 +29,7 @@ const HowToUse = () => {
             onClick={() =>
               window.open(
                 "https://chromewebstore.google.com/detail/grapevine/pplalkgaganjjijekcoikebmnjfdhfbf",
-                "_blank"
+                "_blank",
               )
             }
           >

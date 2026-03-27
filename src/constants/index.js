@@ -40,6 +40,11 @@ export const navigation = [
     title: "How to use",
     url: "#how-to-use",
   },
+  {
+    id: "3",
+    title: "FAQ",
+    url: "#faq",
+  },
 ];
 
 export const brainwaveServicesIcons = [
@@ -51,26 +56,26 @@ export const brainwaveServicesIcons = [
 ];
 
 export const collabText =
-  "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.";
+  "Start commenting on any website instantly without leaving the page.";
 
 export const collabDescription =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. There are many variations of passages of Lorem Ipsum available. There are many variations of passages of Lorem Lorem Ipsum. ";
+  "Share your thoughts, insights, and feedback on any website you visit. Grapevine lets you comment on news articles, blog posts, product reviews, and more. See what others think and be part of the conversation happening across the entire web.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Install the Extension",
+    text: "Download Grapevine from your browser's extension store in just one click.",
   },
   {
     id: "1",
-    title: "Smart Automation",
-    text: collabText,
+    title: "Start Commenting",
+    text: "Visit any website and click the Grapevine icon to open the comments section.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
-    text: collabText,
+    title: "Engage with Community",
+    text: "Read comments from other users on the same page and join the discussion.",
   },
 ];
 
@@ -136,45 +141,45 @@ export const collabApps = [
 export const benefits = [
   {
     id: "0",
-    title: "Lorem Ipsum",
-    text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "Comment Anywhere",
+    text: "Share your thoughts on news articles, blog posts, product pages, social media content, or any website without leaving your browser. Express yourself freely and let your voice be heard across the entire web.",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Lorem Ipsum",
-    text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "URL-Linked Comments",
+    text: "Comments are permanently tied to specific URLs, so you'll see them every time you visit that page. Build meaningful conversations that persist over time and never lose track of discussions on your favorite websites.",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "2",
-    title: "Lorem Ipsum",
-    text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "Community Insights",
+    text: "Discover different perspectives and join conversations with thousands of other Grapevine users worldwide. Learn from the collective wisdom of the community and see what others think about content you care about.",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Lorem Ipsum",
-    text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "Easy to Use",
+    text: "No complex setup required. Just install the extension in one click and start commenting in seconds. Intuitive interface that works seamlessly with any website without any account complications.",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "4",
-    title: "Lorem Ipsum",
-    text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "Privacy Protected",
+    text: "Your data stays yours. Comment safely without tracking or personal data sales. We respect your privacy and never share your information with third parties. Browse with complete peace of mind.",
     iconUrl: benefitIcon5,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Lorem Ipsum",
-    text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "For Everyone",
+    text: "Perfect for researchers, students, reviewers, fact-checkers, journalists, and anyone who wants to share their voice online. Whether analyzing content, sharing feedback, or keeping discussions alive, Grapevine is for you.",
     iconUrl: benefitIcon6,
     imageUrl: benefitImage2,
   },

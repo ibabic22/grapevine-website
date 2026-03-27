@@ -1,5 +1,7 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Benefits from "./components/Benefits";
+import CTA from "./components/CTA";
+import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HowToUse from "./components/HowToUse";
@@ -13,6 +15,8 @@ const App = () => {
         <Main />
         <Benefits />
         <HowToUse />
+        <FAQ />
+        <CTA />
         <Footer />
       </div>
 
