@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { grapevideo } from "../assets";
 
 import Button from "./Button";
@@ -7,6 +7,14 @@ import { BackgroundCircles, BottomLine } from "./design/Main";
 
 const Main = () => {
   const parallaxRef = useRef(null);
+
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 2; // Increase the playback speed
+    }
+  }, []);
 
   return (
     <Section
@@ -43,11 +51,12 @@ const Main = () => {
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:pb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
-            <div className="relative z-1 p-[1px] rounded-2xl bg-conic-gradient">
+          <div className="relative z-1 p-0.5 rounded-2xl bg-smooth-gradient">
+            <div className="relative z-1 p-[1px] rounded-2xl bg-smooth-gradient">
               <div className="rounded-2xl overflow-hidden">
                 <div className="aspect-auto">
                   <video
+                    ref={videoRef}
                     autoPlay
                     muted
                     loop

@@ -70,6 +70,7 @@ export default {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
           "conic-gradient(from 225deg, #c1d72d, #c1d72d, #8762ea, #8762ea, #8762ea)",
+        "smooth-gradient": "linear-gradient(90deg, #c1d72d, #8762ea)",
       },
     },
   },
